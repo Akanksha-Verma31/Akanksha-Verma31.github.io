@@ -10,6 +10,7 @@ import chatbot from "../../Assets/Projects/chatbot.png";
 import ems from "../../Assets/Projects/ems.png";
 import RPS from "../../Assets/Projects/RPS.png";
 import menu from "../../Assets/Projects/menu.png";
+import groceryBud from "../../Assets/Projects/groceryBud.png"
 
 function Projects() {
   return (
@@ -31,6 +32,17 @@ function Projects() {
               description="A to-do list application, which performs operations like add new task, set status and delete. The frontend or client side is developed using React with semantic UI. Backend or Server is created in a statically typed and compiled language Go. Database used is mongoDB."
               ghLink="https://github.com/Akanksha-Verma31/Go-ToDo-App"
               demoLink="https://akanksha-verma31.github.io/Go-ToDo-App/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={groceryBud}
+              isBlog={false}
+              title="Grocery Bud"
+              description="Developed a Shopping/Grocery List web app to store user’s grocery items, daily tasks, logs, to-do, etc with help of JavaScript. Used Javascript’s local storage as database. Currently using Netlify to host."
+              ghLink="https://github.com/Akanksha-Verma31/Grocery-Bud"
+              demoLink="https://akanksha-verma31.github.io/Grocery-Bud/"
             />
           </Col>
 
